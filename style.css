@@ -1,0 +1,87 @@
+/* Apply basic styling to the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the section with class mySkills */
+.mySkills {
+    padding: 20px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Style for the section with class myWork */
+.myWork {
+    padding: 20px;
+    background-color: #e0e0e0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* Style for the headings */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Style for project details */
+.mySkills > div, .myWork > div {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Style for the buttons */
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Style for images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Mobile Media Query */
+@media only screen and (max-width: 600px) {
+    .mySkills {
+        flex-direction: column;
+    }
+
+    .mySkills > div {
+        width: 100%;
+    }
+
+    .myWork {
+        grid-template-columns: 1fr;
+    }
+}
