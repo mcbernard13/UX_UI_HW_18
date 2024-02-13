@@ -1,11 +1,9 @@
-/* Apply basic styling to the body */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* Style for the section with class mySkills */
 .mySkills {
     padding: 20px;
     background-color: #f2f2f2;
@@ -14,7 +12,6 @@ body {
     align-items: flex-start;
 }
 
-/* Style for the section with class myWork */
 .myWork {
     padding: 20px;
     background-color: #e0e0e0;
@@ -23,7 +20,6 @@ body {
     gap: 20px;
 }
 
-/* Style for the headings */
 h1 {
     font-size: 24px;
     margin-bottom: 20px;
@@ -39,14 +35,12 @@ h4 {
     margin-bottom: 5px;
 }
 
-/* Style for project details */
 .mySkills > div, .myWork > div {
     background-color: #ffffff;
     padding: 15px;
     border-radius: 8px;
 }
 
-/* Style for the buttons */
 button {
     background-color: #4caf50;
     color: white;
@@ -65,13 +59,11 @@ button:hover {
     background-color: #45a049;
 }
 
-/* Style for images */
 img {
     max-width: 100%;
     height: auto;
 }
 
-/* Mobile Media Query */
 @media only screen and (max-width: 600px) {
     .mySkills {
         flex-direction: column;
